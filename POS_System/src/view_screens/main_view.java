@@ -696,6 +696,7 @@ public class main_view extends javax.swing.JFrame {
         item += String.format("\n%-28s%-16s%.2f", "", "Amount due", total_cost*1.06);
                 item += String.format("\n\n\n%-28s%-16s%s", "", "Tip: ", "____________");
                 item += String.format("\n\n\n%-28s%-16s%s", "", "Signature: ", "____________");
+                
 
         reciept.setText(item);
         
